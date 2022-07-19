@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1,
+    "id": "portalsgui",
+    "version": "${version}",
+  
+    "name": "Portals GUI",
+    "description": "Prevent nether portals from closing GUIs",
+    "authors": [
+      "Cloudburst"
+    ],
+    "contact": {
+      "sources": "https://github.com/AntiCope/portals-gui"
+    },
+  
+    "license": "CC0-1.0",
+    "icon": "assets/portalsgui/icon.png",
+  
+    "environment": "client",
+    "entrypoints": {
+    },
+    "mixins": [
+      "portalsgui.mixins.json"
+    ],
+    "depends": {
+      "minecraft": "*"
+    }
+  }

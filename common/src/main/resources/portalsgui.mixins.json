@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "anticope.portalsgui.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ClientPlayerEntityMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

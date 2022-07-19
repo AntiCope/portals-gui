@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[41,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "portalsgui"
+version = "${version}"
+displayName = "Portals GUI"
+authors = "Cloudburst"
+description = '''
+Prevent nether portals from closing GUIs
+'''
+logoFile = "icon.png"
+
+[[dependencies.portalsgui]]
+modId = "forge"
+mandatory = true
+versionRange = "[41,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.portalsgui]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19,)"
+ordering = "NONE"
+side = "BOTH"
